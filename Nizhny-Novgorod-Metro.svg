@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Image originally created by Sameboat for Wikimedia projects and licensed under Creative Commons Attribution-ShareAlike  3.0. -->
+<!-- Image originally created by im7mortal for Wikimedia projects and licensed under Creative Commons Attribution-ShareAlike  3.0. -->
 <svg xmlns:dc="http://purl.org/dc/elements/1.1/"
 xmlns:cc="http://web.resource.org/cc/"
 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 xmlns:svg="http://www.w3.org/2000/svg"
 xmlns="http://www.w3.org/2000/svg"
 xmlns:xlink="http://www.w3.org/1999/xlink"
-width="1270" height="1630" viewBox="30 0 1270 1630"
+width="600" height="750" viewBox="30 0 600 750"
 preserveAspectRatio="xMinYMin meet"
 >
 
-<title>нижний</title>
+<title>Nizhny-Novgorod-Metro</title>
 <desc>
 Index of this SVG image:
  Metadata
@@ -358,22 +358,23 @@ d="M 0,0 l 0,-3 a 3,3 0 1,0 0,6 z"/>
 
 </defs>
 
-<rect x="-200" y="-200" width="3000" height="3000" style="fill:white"/> // полотно
+<rect x="-200" y="-200" width="2000" height="2000" style="fill:white"/> // полотно
 
 <g id="river_group" style="fill:none;stroke:#e2fcfc;stroke-linejoin:round;stroke-linecap:round;opacity:1">// БОЛЬШАЯ РЕКА
 <path id="moskva_river" style="stroke-width:50px"
-d="M 10,-200
-L 450,160
+d="M -30,-200
+L 410,160
 l 2000,160 q 0,25 -15,36
 " />
 
 <g id="small_river" style="stroke-width:5px">// СТИЛЬ МАЛЕНЬКИХ РЕК
 </g>
 <path id="Nagatino_poyma" style="stroke-width:30px"
-d="M 450,160
-L 400,210
-L 400,500 q 0,25 -15,36
-l -380,300
+d="M 410,160
+L 360,210
+L 360,500 q 0,25 -15,36
+L  200,660  
+L  -10, 660 
 "/>
 
 </g>
@@ -399,11 +400,10 @@ L 10,500"/>
 
 <path id="route1" style="stroke:#0078BF"
 d="M 75,85
-
 L 250,235"/>
 
 <path id="route2" style="stroke:#ED1B35"
-d="M 500,235
+d="M 420,235
 L 250,235 
 L 250,405 q 0,25 -15,36
 L 136,524 
@@ -433,7 +433,7 @@ L 136,524
 
 <g id="interchange_group" style="opacity:1">    // КРУЖКИ НА ВЕТКАХ
 
-<use xlink:href="#ele-int" x="676" y="588" id="Kashirskaya"/>
+<use xlink:href="#ele-int" x="250" y="235" id="Kashirskaya"/>
 
 </g>
 
@@ -441,7 +441,7 @@ L 136,524
 
 <g id="station_nodes_group" style="opacity:1">   // КВАДРАТИКИ НА ВЕТКАХ
 <g id="station_nodes_route1">
-<use xlink:href="#term1" transform="translate(1070,265)rotate(45)" id="Ulitsa_Podbelskogo"/>
+<use xlink:href="#term1" transform="translate(420,235)rotate(90)" id="Ulitsa_Podbelskogo"/>
 <use xlink:href="#st1" transform="translate(250,280)rotate(0)" id="Cherkizovskaya"/>
 <use xlink:href="#st1" transform="translate(250,320)rotate(0)" id="Preobrazhenskaya_Ploshchad"/>
 <use xlink:href="#st1" transform="translate(250,360)rotate(0)" id="Sokolniki"/>
@@ -454,12 +454,12 @@ L 136,524
 </g>
 
 <g id="station_nodes_route2">     // КВАДРАТИКИ НА ВЕТКАХ
-<use xlink:href="#term2" transform="translate(75,85)rotate(-45)" id="Rechnoy_Vokzal"/>
-<use xlink:href="#st2" transform="translate(130,133)rotate(-45)" id="Vodny_Stadion"/>
-<use xlink:href="#st2" transform="translate(180,176)rotate(-45)" id="Voykovskaya"/>
+<use xlink:href="#term3" transform="translate(75,85)rotate(-45)" id="Rechnoy_Vokzal"/>
+<use xlink:href="#st3" transform="translate(130,133)rotate(-45)" id="Vodny_Stadion"/>
+<use xlink:href="#st3" transform="translate(180,176)rotate(-45)" id="Voykovskaya"/>
 
-<use xlink:href="#intst2" transform="translate(250,235)rotate(0)" id="Kashirskaya_2"/>  // СТАНЦИЯ ИЗ ПОЛУКРУЖОЧКОВ
-<use xlink:href="#intst-h1" transform="translate(250,235)rotate(0)" id="Kashirskaya_11"/>
+<use xlink:href="#intst1" transform="translate(250,235)rotate(0)" id="Kashirskaya_2"/>  // СТАНЦИЯ ИЗ ПОЛУКРУЖОЧКОВ
+<use xlink:href="#intst-h3" transform="translate(250,235)rotate(0)" id="Kashirskaya_11"/>
 
 </g>
 
@@ -502,13 +502,14 @@ L 136,524
 <tspan x="855" y="803">2</tspan><!--Paveletskaya-->
 <tspan x="992" y="1189">2</tspan><!--Krasnogvardeyskaya-->
 
+
 </text> //  НАЗВАНИЕ СТАНЦИЙ НА ВЕТКАХ
 </g>
 
 <g id="stname_group" style="stroke:white; stroke-width:3px; stroke-linejoin:round; opacity:1">
 <text class="st" id="stname" transform="translate(0,4)">
 <!--#1-->
-<tspan x="1050" y="305">Горьковская</tspan>
+<tspan x="410" y="220">Горьковская</tspan>
 <tspan x="260" y="225" style="font-weight:bold;fill:#ED1B35">Московская</tspan>
 <tspan x="260" y="280">Чкаловская</tspan>
 <tspan x="260" y="320">Ленинская</tspan>
@@ -529,34 +530,26 @@ L 136,524
 
 
 
-<text id="terminalname" transform="translate(0,4)" class="small"> НАЗВАНИЕ ВОКЗАЛА АЭРОПОРТ
-<!--Railway Terminal-->
+<text id="terminalname" transform="translate(0,4)" class="small"> //НАЗВАНИЕ ВОКЗАЛА АЭРОПОРТ
 
+<!--Railway Terminal-->
 <tspan x="255" y="192">Московский</tspan>
 
 <!--Airport-->
-<tspan x="120" y="600" style="text-anchor:middle">Стригино</tspan>
+<tspan x="135" y="600" style="text-anchor:middle">Стригино</tspan>
 </text>
-
 </g>
 
-
-<g id="station_name_with_stroke_group" style="opacity:1;fill:black; stroke:none">   //НАЗВАНИЕ НАКЛОННЫЕ НА ВЕТКАХ
+//НАЗВАНИЕ НАКЛОННЫЕ НА ВЕТКАХ
+<g id="station_name_with_stroke_group" style="opacity:1;fill:black; stroke:none">   
 <use xlink:href="#stname"/>
 <use xlink:href="#terminalname"/>
-
-<text class="small" transform="translate(898,388)rotate(-45)">Ленинградский</text>
-<text class="small" transform="translate(918,388)rotate(-45)">Ярославский</text>
 </g>
 
-<g id="river_name_group" style="fill:#5555ff;opacity:1">                         //НАЗВАНИЕ НАКЛОННЫЕ РЕК
-<text class="st" transform="translate(370,100)rotate(40)">Волга</text>
-<!--
-<text class="st" x="722" y="700" style="font-size:9px; text-anchor:middle">Водоотводный канал</text>
--->
-<text class="st" transform="translate(1120,1147)rotate(45)">Москва-река</text>
-<text class="st" transform="translate(400,410)rotate(-90)">Ока</text>
-<text class="st" transform="translate(940,248)rotate(45)">Яуза</text>
+//НАЗВАНИЕ НАКЛОННЫЕ РЕК
+<g id="river_name_group" style="fill:#5555ff;opacity:1">   
+<text class="st" transform="translate(330,100)rotate(40)">Волга</text>
+<text class="st" transform="translate(355,350)rotate(90)">Ока</text>
 </g>
 
 
@@ -583,60 +576,35 @@ L 136,524
 
 <g id="title_group" style="opacity:1">
 <path fill="black" stroke="none"
-d="M -20,45 L 400,45 c 50,0 50,0 80,-30 l 70,-70 L -20,-20"/>
+d="M -20,45 L 420,45 c 50,0 50,0 80,-30 l 70,-70 L -20,-20"/>
 
-<text x="36" y="25" class="st" style="font-size:18px;fill:#fff">Схема линий Московского метрополитена (2013)</text>
+<text x="36" y="25" class="st" style="font-size:18px;fill:#fff">Схема линий Нижегородского метрополитена (2013)</text>
 </g>
 
-<g id="linebox_group" transform="translate(40,1350)" style="opacity:1">
-<path stroke="#cccccc" stroke-width="3px" d="M 0,0 L 1250,0"/>
-<text class="legendtext" x="635" y="-5" style="font-weight:bold; text-anchor:middle">Линии</text>
+<g id="linebox_group" transform="translate(40,690)" style="opacity:1">
+<path stroke="#cccccc" stroke-width="3px" d="M 0,0 L 600,0"/>
+<text class="legendtext" x="300" y="-5" style="font-weight:bold; text-anchor:middle">Линии</text>
 
 <g id="legendg1">
 <path d="M 15,15 L 55,15" style="fill:none;stroke:#ED1B35;stroke-width:5" id="route1color"/>
-<path d="M 15,35 L 55,35" style="fill:none;stroke:#44B85C;stroke-width:5" id="route2color"/>
-<path d="M 15,55 L 55,55" style="fill:none;stroke:#0078BF;stroke-width:5" id="route3color"/>
-<path d="M 15,75 L 55,75" style="fill:none;stroke:#19C1F3;stroke-width:5" id="route4color"/>
 
 <text class="legendtext">
-<tspan x="65" y="20">#1</tspan><tspan x="90" y="20">Сокольническая линия (красная)</tspan>
-<tspan x="65" y="40">#2</tspan><tspan x="90" y="40">Замоскворецкая линия (зелёная)</tspan>
-<tspan x="65" y="60">#3</tspan><tspan x="90" y="60">Арбатско-Покровская линия (синяя)</tspan>
-<tspan x="65" y="80">#4</tspan><tspan x="90" y="80">Филёвская линия (голубая)</tspan>
+<tspan x="65" y="20">#1</tspan><tspan x="90" y="20">Автозаводская линия (красная)</tspan>
 </text>
 </g>
 
-<g id="legendg2" transform="translate(380,0)">
-<path d="M 15,15 L 55,15" style="fill:none;stroke:#894E35;stroke-width:5" id="route5color"/>
-<path d="M 15,35 L 55,35" style="fill:none;stroke:#F58631;stroke-width:5" id="route6color"/>
-<path d="M 15,55 L 55,55" style="fill:none;stroke:#8E479C;stroke-width:5" id="route7color"/>
-<path d="M 15,75 L 55,75" style="fill:none;stroke:#FFCB31;stroke-width:5" id="route8color"/>
+<g id="legendg2" transform="translate(300,0)">
+<path d="M 15,15 L 55,15" style="fill:none;stroke:#0078BF;stroke-width:5" id="route2color"/>
 
 <text class="legendtext">
-<tspan x="65" y="20">#5</tspan><tspan x="90" y="20">Кольцевая линия (коричневая)</tspan>
-<tspan x="65" y="40">#6</tspan><tspan x="90" y="40">Калужско-Рижская линия (оранжевая)</tspan>
-<tspan x="65" y="60">#7</tspan><tspan x="90" y="60">Таганско-Краснопресненская линия (фиолетовая)</tspan>
-<tspan x="65" y="80">#8</tspan><tspan x="90" y="80">Калининская линия (жёлтая)</tspan>
+<tspan x="65" y="20">#2</tspan><tspan x="90" y="20">Сормовская линия (синяя)</tspan>
 </text>
 </g>
 
-<g id="legendg3" transform="translate(833,0)">
-<path d="M 15,15 L 55,15" style="fill:none;stroke:#A1A2A3;stroke-width:5" id="route9color"/>
-<path d="M 15,35 L 55,35" style="fill:none;stroke:#B3D445;stroke-width:5" id="route10color"/>
-<path d="M 15,55 L 55,55" style="fill:none;stroke:#79CDCD;stroke-width:5" id="route11color"/>
-<path d="M 15,75 L 55,75" style="fill:none;stroke:#ACBFE1;stroke-width:5" id="route12color"/>
-<path d="M 15,75 L 55,75" style="fill:none;stroke:#FFFFFF;stroke-width:1" id="route12color_inner"/>
-<path d="M 15,95 L 55,95" style="fill:none;stroke-width:2;stroke:#2C87C5" id="monorailcolor"/>
-<use xlink:href="#stmono" x="35" y="95"/>
 
-<text class="legendtext">
-<tspan x="65" y="20">#9</tspan><tspan x="100" y="20">Серпуховско-Тимирязевская линия (серая)</tspan>
-<tspan x="65" y="40">#10</tspan><tspan x="100" y="40">Люблинско-Дмитровская линия (салатовая)</tspan>
-<tspan x="65" y="60">#11</tspan><tspan x="100" y="60">Каховская линия (бирюзовая)</tspan>
-<tspan x="65" y="80">#12</tspan><tspan x="100" y="80">Бутовская линия (серо-голубая)</tspan>
-<tspan x="65" y="100">#М1</tspan><tspan x="100" y="100">Московский монорельс</tspan>
-</text>
-</g>
+
+
+
 
 <g id="legendbox_group" transform="translate(0,130)">
 <path stroke="#cccccc" stroke-width="3px" d="M 0,5 L 1250,5"/>
