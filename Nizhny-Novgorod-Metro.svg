@@ -9,7 +9,7 @@ xmlns:xlink="http://www.w3.org/1999/xlink"
 width="600" height="750" viewBox="30 0 600 750"
 preserveAspectRatio="xMinYMin meet"
 >
-
+ 
 <title>Nizhny-Novgorod-Metro</title>
 <desc>
 Index of this SVG image:
@@ -597,7 +597,7 @@ d="M -20,45 L 420,45 c 50,0 50,0 80,-30 l 70,-70 L -20,-20"/>
 <path d="M 15,15 L 55,15" style="fill:none;stroke:#0078BF;stroke-width:5" id="route2color"/>
 
 <text class="legendtext">
-<tspan x="65" y="20">#2</tspan><tspan x="90" y="20">Сормовская линия (синяя)</tspan>
+<tspan x="65" y="20">#2</tspan><tspan x="90" y="20">Сормовская линиhя (синяя)</tspan>
 </text>
 </g>
 
